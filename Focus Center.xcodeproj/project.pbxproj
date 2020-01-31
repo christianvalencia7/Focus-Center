@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		944320F423DBA2C400ADE5D9 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944320F223DBA2C400ADE5D9 /* Question.swift */; };
+		944320F523DBA2C400ADE5D9 /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944320F323DBA2C400ADE5D9 /* QuestionBank.swift */; };
+		9443210023DBA77400ADE5D9 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 944320FC23DBA77400ADE5D9 /* ProgressHUD.m */; };
 		94833FDA23D7A77C000E48ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94833FD923D7A77C000E48ED /* AppDelegate.swift */; };
 		94833FDC23D7A77C000E48ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94833FDB23D7A77C000E48ED /* SceneDelegate.swift */; };
 		94833FDE23D7A77C000E48ED /* ActividadesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94833FDD23D7A77C000E48ED /* ActividadesViewController.swift */; };
@@ -15,9 +18,18 @@
 		94833FE523D7A77F000E48ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94833FE423D7A77F000E48ED /* Assets.xcassets */; };
 		94833FE823D7A77F000E48ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94833FE623D7A77F000E48ED /* LaunchScreen.storyboard */; };
 		94833FF023D7B1BA000E48ED /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94833FEF23D7B1BA000E48ED /* TableViewController.swift */; };
+		94833FF623D916B2000E48ED /* NivelTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94833FF523D916B2000E48ED /* NivelTableTableViewController.swift */; };
+		94833FF823D916DA000E48ED /* NivelDetalleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94833FF723D916DA000E48ED /* NivelDetalleTableViewController.swift */; };
+		94833FFA23D91A12000E48ED /* EvaluacionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94833FF923D91A12000E48ED /* EvaluacionViewController.swift */; };
+		94833FFC23DA3F14000E48ED /* PreguntasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94833FFB23DA3F14000E48ED /* PreguntasViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		944320F223DBA2C400ADE5D9 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		944320F323DBA2C400ADE5D9 /* QuestionBank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
+		944320F923DBA77400ADE5D9 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		944320FA23DBA77400ADE5D9 /* FunWithFlags-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FunWithFlags-Bridging-Header.h"; sourceTree = "<group>"; };
+		944320FC23DBA77400ADE5D9 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
 		94833FD623D7A77C000E48ED /* Focus Center.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Focus Center.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94833FD923D7A77C000E48ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94833FDB23D7A77C000E48ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +40,10 @@
 		94833FE723D7A77F000E48ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94833FE923D7A77F000E48ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94833FEF23D7B1BA000E48ED /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		94833FF523D916B2000E48ED /* NivelTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NivelTableTableViewController.swift; sourceTree = "<group>"; };
+		94833FF723D916DA000E48ED /* NivelDetalleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NivelDetalleTableViewController.swift; sourceTree = "<group>"; };
+		94833FF923D91A12000E48ED /* EvaluacionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvaluacionViewController.swift; sourceTree = "<group>"; };
+		94833FFB23DA3F14000E48ED /* PreguntasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreguntasViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +57,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		944320F123DBA2C400ADE5D9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				944320F223DBA2C400ADE5D9 /* Question.swift */,
+				944320F323DBA2C400ADE5D9 /* QuestionBank.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		944320F623DBA77400ADE5D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				944320F923DBA77400ADE5D9 /* ProgressHUD.h */,
+				944320FA23DBA77400ADE5D9 /* FunWithFlags-Bridging-Header.h */,
+				944320FC23DBA77400ADE5D9 /* ProgressHUD.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9443210323DBB22600ADE5D9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				94833FDF23D7A77C000E48ED /* SecondViewController.swift */,
+				94833FDD23D7A77C000E48ED /* ActividadesViewController.swift */,
+				94833FEF23D7B1BA000E48ED /* TableViewController.swift */,
+				94833FF523D916B2000E48ED /* NivelTableTableViewController.swift */,
+				94833FF723D916DA000E48ED /* NivelDetalleTableViewController.swift */,
+				94833FFB23DA3F14000E48ED /* PreguntasViewController.swift */,
+				94833FF923D91A12000E48ED /* EvaluacionViewController.swift */,
+				94833FD923D7A77C000E48ED /* AppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		94833FCD23D7A77C000E48ED = {
 			isa = PBXGroup;
 			children = (
@@ -60,15 +110,14 @@
 		94833FD823D7A77C000E48ED /* Focus Center */ = {
 			isa = PBXGroup;
 			children = (
-				94833FD923D7A77C000E48ED /* AppDelegate.swift */,
+				944320F123DBA2C400ADE5D9 /* Model */,
+				9443210323DBB22600ADE5D9 /* Controller */,
 				94833FDB23D7A77C000E48ED /* SceneDelegate.swift */,
-				94833FDD23D7A77C000E48ED /* ActividadesViewController.swift */,
-				94833FEF23D7B1BA000E48ED /* TableViewController.swift */,
-				94833FDF23D7A77C000E48ED /* SecondViewController.swift */,
 				94833FE123D7A77C000E48ED /* Main.storyboard */,
 				94833FE423D7A77F000E48ED /* Assets.xcassets */,
 				94833FE623D7A77F000E48ED /* LaunchScreen.storyboard */,
 				94833FE923D7A77F000E48ED /* Info.plist */,
+				944320F623DBA77400ADE5D9 /* Supporting Files */,
 			);
 			path = "Focus Center";
 			sourceTree = "<group>";
@@ -145,10 +194,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				94833FE023D7A77C000E48ED /* SecondViewController.swift in Sources */,
+				94833FF823D916DA000E48ED /* NivelDetalleTableViewController.swift in Sources */,
 				94833FDE23D7A77C000E48ED /* ActividadesViewController.swift in Sources */,
+				944320F523DBA2C400ADE5D9 /* QuestionBank.swift in Sources */,
 				94833FDA23D7A77C000E48ED /* AppDelegate.swift in Sources */,
 				94833FF023D7B1BA000E48ED /* TableViewController.swift in Sources */,
+				9443210023DBA77400ADE5D9 /* ProgressHUD.m in Sources */,
+				944320F423DBA2C400ADE5D9 /* Question.swift in Sources */,
 				94833FDC23D7A77C000E48ED /* SceneDelegate.swift in Sources */,
+				94833FFC23DA3F14000E48ED /* PreguntasViewController.swift in Sources */,
+				94833FF623D916B2000E48ED /* NivelTableTableViewController.swift in Sources */,
+				94833FFA23D91A12000E48ED /* EvaluacionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
