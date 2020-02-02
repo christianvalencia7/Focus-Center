@@ -10,6 +10,18 @@
 		944320F423DBA2C400ADE5D9 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944320F223DBA2C400ADE5D9 /* Question.swift */; };
 		944320F523DBA2C400ADE5D9 /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944320F323DBA2C400ADE5D9 /* QuestionBank.swift */; };
 		9443210023DBA77400ADE5D9 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 944320FC23DBA77400ADE5D9 /* ProgressHUD.m */; };
+		9443210623E4C7F400ADE5D9 /* AmateurGuia1.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9443210523E4C7F400ADE5D9 /* AmateurGuia1.rtf */; };
+		9443210823E4C89A00ADE5D9 /* AmateurGuia2.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9443210723E4C89A00ADE5D9 /* AmateurGuia2.rtf */; };
+		9443210A23E4C8C500ADE5D9 /* AmateurGuia3.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9443210923E4C8C500ADE5D9 /* AmateurGuia3.rtf */; };
+		9443210C23E4C96900ADE5D9 /* AmateurGuia4.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9443210B23E4C96800ADE5D9 /* AmateurGuia4.rtf */; };
+		9443210E23E4C98800ADE5D9 /* IntermedioGuia1.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9443210D23E4C98800ADE5D9 /* IntermedioGuia1.rtf */; };
+		9443211023E4C99A00ADE5D9 /* IntermedioGuia2.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9443210F23E4C99A00ADE5D9 /* IntermedioGuia2.rtf */; };
+		9443211223E4C9B600ADE5D9 /* IntermedioGuia3.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9443211123E4C9B600ADE5D9 /* IntermedioGuia3.rtf */; };
+		9443211423E4C9C600ADE5D9 /* IntermedioGuia4.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9443211323E4C9C600ADE5D9 /* IntermedioGuia4.rtf */; };
+		9443211623E4C9E000ADE5D9 /* MasterGuia1.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9443211523E4C9E000ADE5D9 /* MasterGuia1.rtf */; };
+		9443211823E4C9F000ADE5D9 /* MasterGuia2.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9443211723E4C9F000ADE5D9 /* MasterGuia2.rtf */; };
+		9443211A23E4C9FE00ADE5D9 /* MasterGuia3.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9443211923E4C9FE00ADE5D9 /* MasterGuia3.rtf */; };
+		9443211C23E4CA1200ADE5D9 /* MasterGuia4.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9443211B23E4CA1200ADE5D9 /* MasterGuia4.rtf */; };
 		94833FDA23D7A77C000E48ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94833FD923D7A77C000E48ED /* AppDelegate.swift */; };
 		94833FDC23D7A77C000E48ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94833FDB23D7A77C000E48ED /* SceneDelegate.swift */; };
 		94833FDE23D7A77C000E48ED /* ActividadesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94833FDD23D7A77C000E48ED /* ActividadesViewController.swift */; };
@@ -30,6 +42,18 @@
 		944320F923DBA77400ADE5D9 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
 		944320FA23DBA77400ADE5D9 /* FunWithFlags-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FunWithFlags-Bridging-Header.h"; sourceTree = "<group>"; };
 		944320FC23DBA77400ADE5D9 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		9443210523E4C7F400ADE5D9 /* AmateurGuia1.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = AmateurGuia1.rtf; sourceTree = "<group>"; };
+		9443210723E4C89A00ADE5D9 /* AmateurGuia2.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = AmateurGuia2.rtf; sourceTree = "<group>"; };
+		9443210923E4C8C500ADE5D9 /* AmateurGuia3.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = AmateurGuia3.rtf; sourceTree = "<group>"; };
+		9443210B23E4C96800ADE5D9 /* AmateurGuia4.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = AmateurGuia4.rtf; sourceTree = "<group>"; };
+		9443210D23E4C98800ADE5D9 /* IntermedioGuia1.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = IntermedioGuia1.rtf; sourceTree = "<group>"; };
+		9443210F23E4C99A00ADE5D9 /* IntermedioGuia2.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = IntermedioGuia2.rtf; sourceTree = "<group>"; };
+		9443211123E4C9B600ADE5D9 /* IntermedioGuia3.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = IntermedioGuia3.rtf; sourceTree = "<group>"; };
+		9443211323E4C9C600ADE5D9 /* IntermedioGuia4.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = IntermedioGuia4.rtf; sourceTree = "<group>"; };
+		9443211523E4C9E000ADE5D9 /* MasterGuia1.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = MasterGuia1.rtf; sourceTree = "<group>"; };
+		9443211723E4C9F000ADE5D9 /* MasterGuia2.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = MasterGuia2.rtf; sourceTree = "<group>"; };
+		9443211923E4C9FE00ADE5D9 /* MasterGuia3.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = MasterGuia3.rtf; sourceTree = "<group>"; };
+		9443211B23E4CA1200ADE5D9 /* MasterGuia4.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = MasterGuia4.rtf; sourceTree = "<group>"; };
 		94833FD623D7A77C000E48ED /* Focus Center.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Focus Center.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94833FD923D7A77C000E48ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94833FDB23D7A77C000E48ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +84,7 @@
 		944320F123DBA2C400ADE5D9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9443210423E4C77C00ADE5D9 /* Lecturas */,
 				944320F223DBA2C400ADE5D9 /* Question.swift */,
 				944320F323DBA2C400ADE5D9 /* QuestionBank.swift */,
 			);
@@ -89,6 +114,25 @@
 				94833FD923D7A77C000E48ED /* AppDelegate.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		9443210423E4C77C00ADE5D9 /* Lecturas */ = {
+			isa = PBXGroup;
+			children = (
+				9443210523E4C7F400ADE5D9 /* AmateurGuia1.rtf */,
+				9443210723E4C89A00ADE5D9 /* AmateurGuia2.rtf */,
+				9443210923E4C8C500ADE5D9 /* AmateurGuia3.rtf */,
+				9443210B23E4C96800ADE5D9 /* AmateurGuia4.rtf */,
+				9443210D23E4C98800ADE5D9 /* IntermedioGuia1.rtf */,
+				9443210F23E4C99A00ADE5D9 /* IntermedioGuia2.rtf */,
+				9443211123E4C9B600ADE5D9 /* IntermedioGuia3.rtf */,
+				9443211323E4C9C600ADE5D9 /* IntermedioGuia4.rtf */,
+				9443211523E4C9E000ADE5D9 /* MasterGuia1.rtf */,
+				9443211723E4C9F000ADE5D9 /* MasterGuia2.rtf */,
+				9443211923E4C9FE00ADE5D9 /* MasterGuia3.rtf */,
+				9443211B23E4CA1200ADE5D9 /* MasterGuia4.rtf */,
+			);
+			path = Lecturas;
 			sourceTree = "<group>";
 		};
 		94833FCD23D7A77C000E48ED = {
@@ -180,8 +224,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9443211623E4C9E000ADE5D9 /* MasterGuia1.rtf in Resources */,
 				94833FE823D7A77F000E48ED /* LaunchScreen.storyboard in Resources */,
+				9443211423E4C9C600ADE5D9 /* IntermedioGuia4.rtf in Resources */,
+				9443211023E4C99A00ADE5D9 /* IntermedioGuia2.rtf in Resources */,
 				94833FE523D7A77F000E48ED /* Assets.xcassets in Resources */,
+				9443211823E4C9F000ADE5D9 /* MasterGuia2.rtf in Resources */,
+				9443210A23E4C8C500ADE5D9 /* AmateurGuia3.rtf in Resources */,
+				9443210C23E4C96900ADE5D9 /* AmateurGuia4.rtf in Resources */,
+				9443210E23E4C98800ADE5D9 /* IntermedioGuia1.rtf in Resources */,
+				9443211C23E4CA1200ADE5D9 /* MasterGuia4.rtf in Resources */,
+				9443211223E4C9B600ADE5D9 /* IntermedioGuia3.rtf in Resources */,
+				9443211A23E4C9FE00ADE5D9 /* MasterGuia3.rtf in Resources */,
+				9443210823E4C89A00ADE5D9 /* AmateurGuia2.rtf in Resources */,
+				9443210623E4C7F400ADE5D9 /* AmateurGuia1.rtf in Resources */,
 				94833FE323D7A77C000E48ED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -57,9 +57,6 @@
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="LNY-OH-AqQ" kind="show" id="tCQ-7Q-nne"/>
-                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -68,6 +65,9 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="6K2-nv-0x3"/>
+                    <connections>
+                        <segue destination="LNY-OH-AqQ" kind="show" identifier="showGuias" id="mkl-LD-FvW"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SXu-rx-gRK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -89,9 +89,6 @@
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="zv0-mP-hkm" kind="show" id="EXa-r5-pb1"/>
-                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -100,6 +97,9 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="Xhd-dg-HO4"/>
+                    <connections>
+                        <segue destination="zv0-mP-hkm" kind="show" identifier="showDetalles" id="N3Q-BT-NUL"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S02-wB-c3J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -121,9 +121,6 @@
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="8rB-9o-Ztq" kind="show" id="alx-MR-0Xj"/>
-                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -132,6 +129,9 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="zRD-BV-MYE"/>
+                    <connections>
+                        <segue destination="8rB-9o-Ztq" kind="show" identifier="showDetalle" id="gEs-76-aqx"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Tm-G0-SQg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -145,19 +145,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ul1-at-aWl">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ul1-at-aWl">
                                 <rect key="frame" x="0.0" y="88" width="414" height="665"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="¿Qué le pasa a la gallina?">
-                                        <attributes>
-                                            <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <font key="NSFont" size="17" name=".AppleSystemUIFont"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
                                     <fragment>
-                                        <string key="content">
+                                        <mutableString key="content">¿Qué le pasa a la gallina?
 Natalia tenía 10 años, y desde que tenía 6 pasaba los veranos en la granja de sus abuelos. A Natalia le gustaban mucho los animales y disfrutaba las vacaciones ayudando a sus abuelos a cuidarlos.
 
 Era una granja rodeada de campo para que las vacas y las ovejas pudieran comer y pasear durante el día. Las dos yeguas y el burrito de su abuelo se refugiaban del sol dentro del establo. Había un gallinero repleto de ruidosas gallinas, algunas se escondían a poner sus huevos en una caseta y otras paseaban y picoteaban, también vivía allí un gallo con la cola de colores que les despertaba todas las mañanas. En un lateral de la casa, su abuela y su abuelo habían sembrado lechugas, tomates, zanahorias y unas enormes sandías, y en un extremo crecía fuerte un limonero que sus abuelos habían plantado 6 años antes.
@@ -174,10 +167,10 @@ Natalia volvió al gallinero, echó el maíz en las cajitas y todas las gallinas
 
 Como el día que se preocupó por la gallina, Natalia corrió muy contenta a avisar a sus abuelos ¡La gallina había tenido pollitos! ¿Qué había pasado todo ese tiempo? “La gallina ha estado cuidando de los huevos durante 3 semanas, dándoles calor para que dentro de cada huevo creciera un pollito hasta que estuvieran tan grandes y fuertes que pudieran romper el cascarón y salir”. Natalia y sus abuelos los dejaron descansar y al cuidado de su madre el resto del día.
 
-Todos pasaron el verano observando cómo cada día y poco a poco los pollitos crecían, comían y exploraban. ¡Qué verano tan divertido!</string>
+Todos pasaron el verano observando cómo cada día y poco a poco los pollitos crecían, comían y exploraban. ¡Qué verano tan divertido!</mutableString>
                                         <attributes>
                                             <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <font key="NSFont" size="14" name=".AppleSystemUIFont"/>
+                                            <font key="NSFont" size="17" name=".AppleSystemUIFont"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -205,6 +198,9 @@ Todos pasaron el verano observando cómo cada día y poco a poco los pollitos cr
                         <viewLayoutGuide key="safeArea" id="PV4-zZ-GqK"/>
                     </view>
                     <navigationItem key="navigationItem" id="9DL-2w-g6D"/>
+                    <connections>
+                        <outlet property="lectura" destination="Ul1-at-aWl" id="qqI-RW-aVN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UiX-4D-iqX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -245,7 +241,7 @@ Todos pasaron el verano observando cómo cada día y poco a poco los pollitos cr
                                     <constraint firstItem="2U4-Lv-3tq" firstAttribute="top" secondItem="6VW-xw-iiY" secondAttribute="bottom" constant="8" id="mZy-7S-ktG"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fFy-Rd-TFW">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fFy-Rd-TFW">
                                 <rect key="frame" x="0.0" y="195" width="414" height="206"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="206" id="Qnk-hX-Lkd"/>
@@ -257,7 +253,7 @@ Todos pasaron el verano observando cómo cada día y poco a poco los pollitos cr
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="pBT-0e-jni">
                                 <rect key="frame" x="7" y="409" width="400" height="400"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Rh-il-lu4">
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Rh-il-lu4">
                                         <rect key="frame" x="0.0" y="0.0" width="400" height="89"/>
                                         <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="26"/>
@@ -268,7 +264,7 @@ Todos pasaron el verano observando cómo cada día y poco a poco los pollitos cr
                                             <action selector="answerPressed:" destination="We8-j3-sqi" eventType="touchUpInside" id="mIP-kC-naz"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SBN-2g-I3W">
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SBN-2g-I3W">
                                         <rect key="frame" x="0.0" y="104" width="400" height="88.5"/>
                                         <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="26"/>
@@ -279,7 +275,7 @@ Todos pasaron el verano observando cómo cada día y poco a poco los pollitos cr
                                             <action selector="answerPressed:" destination="We8-j3-sqi" eventType="touchUpInside" id="T7s-qa-paW"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NAq-gD-3cJ">
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NAq-gD-3cJ">
                                         <rect key="frame" x="0.0" y="207.5" width="400" height="89"/>
                                         <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="26"/>
@@ -290,7 +286,7 @@ Todos pasaron el verano observando cómo cada día y poco a poco los pollitos cr
                                             <action selector="answerPressed:" destination="We8-j3-sqi" eventType="touchUpInside" id="6ui-Fe-cNL"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lyz-Ki-yvK">
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lyz-Ki-yvK">
                                         <rect key="frame" x="0.0" y="311.5" width="400" height="88.5"/>
                                         <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="26"/>

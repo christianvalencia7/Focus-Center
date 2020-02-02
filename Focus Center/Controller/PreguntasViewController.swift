@@ -39,13 +39,14 @@ class PreguntasViewController: UIViewController {
     }
     
     @IBAction func answerPressed(_ sender: UIButton) {
-        print("Button was pressed")
-        
+        print("choice: \(sender.tag)-> answer: \(selectedAnswer)")
         if sender.tag == selectedAnswer {
             //ProgressHUD.showSuccess("Correct")
             score += 1
+            print("Button was pressed")
             
-        }else{
+        }
+        else{
             //ProgressHUD.showError("Incorrect")
             
             
@@ -78,6 +79,7 @@ class PreguntasViewController: UIViewController {
     }
     
     func updateUI(){
+        print("Score: \(score)")
         scoreLabel.text = "Score: \(score)"
         questionCounter.text = "\(questionNumber + 1)/\(allQuestions.list.count)"
         progressView.frame.size.width = (view.frame.size.width / CGFloat(allQuestions.list.count)) * CGFloat(questionNumber + 1)

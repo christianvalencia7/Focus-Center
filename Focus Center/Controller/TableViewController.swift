@@ -9,7 +9,7 @@
 import UIKit
 
 class TableViewController: UITableViewController {
-
+    var nivelSelected = -2
     let niveles = ["Amateur", "Intermedio", "Master"]
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,6 +44,12 @@ class TableViewController: UITableViewController {
     }
     
 
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        nivelSelected = indexPath.row
+        performSegue(withIdentifier: "showGuias", sender: nil)
+    }
+    
     /*
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
@@ -79,14 +85,17 @@ class TableViewController: UITableViewController {
     }
     */
 
-    /*
+
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
+        if let viewController = segue.destination as? NivelTableTableViewController {
+            viewController.nivel = nivelSelected
+        }
     }
-    */
+
 
 }

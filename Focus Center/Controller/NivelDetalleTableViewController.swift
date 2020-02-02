@@ -8,11 +8,13 @@
 
 import UIKit
 
-class NivelDetalleTableViewController: UITableViewController {
 
+class NivelDetalleTableViewController: UITableViewController {
+    var nivel = -1
+    var guia = -1
+    var selectedDetalle = -1
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -40,6 +42,15 @@ class NivelDetalleTableViewController: UITableViewController {
         
 
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+         selectedDetalle = indexPath.row
+         if(selectedDetalle == 0)
+         {
+            performSegue(withIdentifier: "showDetalle", sender: nil)
+        }
     }
     
 
@@ -78,14 +89,18 @@ class NivelDetalleTableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
+        if let viewController = segue.destination as? EvaluacionViewController {
+            viewController.nivel = self.nivel
+            viewController.guia = self.guia
+        }
     }
-    */
+    
 
 }
